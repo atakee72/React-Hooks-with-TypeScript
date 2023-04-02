@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { User } from "../interfaces/interfaces";
 
 function useFetchData<Payload>(url: string): {
   data: Payload | null;
